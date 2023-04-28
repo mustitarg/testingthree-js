@@ -60,7 +60,7 @@ const controls = new THREE.OrbitControls(camera, renderer.domElement);
 const loader = new THREE.GLTFLoader();
 let model;
 
-loader.load('guitar.glb', function(gltf) {
+loader.load('designer_guitar.glb', function(gltf) {
   model = gltf.scene;
   if (model) {
     model.traverse(function(child) {
