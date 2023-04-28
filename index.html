@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three/examples/js/controls/OrbitControls.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/20.0.0/tween.umd.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Test</title>
+</head>
+<body>
+    <!-- https://sketchfab.com/3d-models/designer-guitar-d45111cbe4d84c9bbf37784bc140dca3 -->
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-hiking"></i> travel. </a>
+        <nav class="navbar">
+            <div id="nav-close" class="fas fa-times"></div>
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#shop">shop</a>
+            <a href="#packages">packages</a>
+            <a href="#reviews">reviews</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+
+
+    <section class="home" id="home">
+        <div id="yourDivId"></div>
+        <a href="#" class="btn rotation-baby">Rotate Camera</a>
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(assets/images/home-bg-1.jpg) no-repeat;">
+                        <div class="content">
+                            <span>never stop</span>
+                            <h3>exploring</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                            <a href="#" class="btn">get started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box second" style="background: url(assets/images/home-bg-2.jpg) no-repeat;">
+                        <div class="content">
+                            <span>make tour</span>
+                            <h3>amazing</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                            <a href="#" class="btn">get started</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(assets/images/home-bg-3.jpg) no-repeat;">
+                        <div class="content">
+                            <span>explore the</span>
+                            <h3>new world</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                            <a href="#" class="btn">get started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+
+    <script type="module" src="assets/js/script.js"></script>
+</body>
+</html>
